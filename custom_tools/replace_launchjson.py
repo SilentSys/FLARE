@@ -23,6 +23,7 @@ if platform.system() == 'Darwin':
             'type': 'lldb',
             'request': 'launch',
             'program': '${workspaceFolder}/.pio/build/native_tantalus_stage_1/program',
+            'cwd': '${workspaceFolder}/.pio/build/native_tantalus_stage_1/',
             'args': [],
         }
     ]
