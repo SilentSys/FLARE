@@ -16,3 +16,4 @@ script:
 - cd avionics
 - cmake .
 - cmake --build .
+- ctest --progress
