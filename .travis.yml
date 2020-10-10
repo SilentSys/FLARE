@@ -10,7 +10,6 @@ dist: bionic
 sudo: required
 
 install:
-- sudo apt-get update -y
 
 script:
 - cd avionics
